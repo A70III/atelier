@@ -1,7 +1,7 @@
 # atelier
 
 Agent skills loaded by coding agents — a small workshop of specialists for writing skills,
-designing interfaces, and migrating brands.
+orienting agents in repositories, designing interfaces, and migrating brands.
 
 ## Install
 
@@ -30,6 +30,9 @@ Each skill is its own directory containing a `SKILL.md` (with YAML frontmatter �
   source material (Markdown, specs, notes, transcripts, PDFs), reaches a precise understanding, then
   drafts or refines a coding-agent skill that works in a real pipeline. Interviews before writing,
   and verifies against a validator and audit checklist before shipping.
+- **[project-orientation](./skills/authoring/project-orientation/SKILL.md)** — Builds and maintains a
+  repository's orientation layer — mental model, vocabulary, routing, invariants, and decisions —
+  then uses it to catch drift before it becomes a bug.
 
 ### Design
 
